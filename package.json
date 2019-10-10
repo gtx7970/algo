@@ -6,12 +6,16 @@
   "author": "zdy <zdy07015394@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "tslint": "tslint --project . src/**/*.ts src/**/*.tsx"
+    "tslint": "tslint --project . src/**/*.ts src/**/*.tsx",
+    "test": "jest --verbose --collect-coverage"
   },
   "devDependencies": {
     "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.2",
+    "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
-    "tslint": "^5.18.0"
-  },
-  "dependencies": {}
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
 }
